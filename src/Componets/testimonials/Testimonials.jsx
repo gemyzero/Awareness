@@ -1,22 +1,22 @@
 import React, { useState } from 'react'
 import './testimonials.css'
-import New1 from '../../../public/images/test/1_New1.jpg'
+import New from '../../../public/images/test/3.jpg'
 
 const testimonials = [
     {
-      image: '../../../public/images/test/3.jpg', // استبدل بمسار الصورة الأولى
+      image: New, // استبدل بمسار الصورة الأولى
       text: 'البروفيسور سهيل مشنتف: طيب الروح وأسلوبه الممتع، هذا المدرب لديه اللمسة المدهشة في إيصال المعلومة بطريقة تروح وهي اكتشاف جديد للنفس وهي تدخل لذاتي في عوالم كيفية تملك ذي نفسي وعلاقتها بكل شيء في الكون.',
       name: 'البروفيسور سهيل مشنتف',
 
     },
     {
-      image: '../../../public/images/test/3.jpg', // استبدل بمسار الصورة الثانية
+      image: New, // استبدل بمسار الصورة الثانية
       text: 'نص الشهادة الثانية هنا.',
       name: 'البروفيسور سهيل مشنتف',
 
     },
     {
-      image: '../../../public/images/test/3.jpg', // استبدل بمسار الصورة الثالثة
+      image: New, // استبدل بمسار الصورة الثالثة
       text: 'نص الشهادة الثالثة هنا.',
       name: 'البروفيسور سهيل مشنتف',
 
