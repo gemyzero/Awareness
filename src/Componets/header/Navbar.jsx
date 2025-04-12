@@ -26,8 +26,21 @@ export default function Navbar() {
   const handleLinkClick = (index) => {
     setActiveLinkIndex(index);
   };
+
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+const toggleMenu = () => {
+  if(scrollY === 0){
+    setScrollY(10)
+
+  }else(
+    setScrollY(0)
+
+  )
+};
   return (
-    <div className={`container-fluid n p-2  ${scrollY > 1 ?  'bg-white ' : ''}`}>
+    <div className={`container-fluid n p-2   ${scrollY > 1 ?  'bg-white ' : ''}`}>
     <nav className="navbar  navbar-expand-lg  text-white  px-4">
       <div className="container-fluid ">
     <div className='logo ' >
@@ -35,11 +48,11 @@ export default function Navbar() {
     <p  className={`${scrollY > 1 ?  'text-success ' : ''}`}>خبير تطوير الوي الداتي</p>
     
     </div>    
-        <button  className="navbar-toggler text-white bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button onClick={toggleMenu}  className="navbar-toggler text-white bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent"style={{}} >
-          <ul className="navbar-nav e-auto mb-2 mb-lg-0  w-100">
+        <div className={`collapse  navbar-collapse d-lg-flex justify-content-lg-end`} id="navbarSupportedContent"style={{}} >
+          <ul className={`navbar-nav  e-auto mb-2  mb-lg-0 w-100`}>
             <li className="nav-item mx-3">
             <a className={`nav-link ${scrollY > 1 ?  'text-black ' : 'text-white'} ${activeLinkIndex === 0 ? 'active' : ''} `} onClick={() => {handleLinkClick(0)
                 Navigate('/')
@@ -47,7 +60,7 @@ export default function Navbar() {
 
             </li>
             <li className="nav-item mx-3 ">
-              <a className={`nav-link  ${scrollY > 1 ?  'text-black ' : 'text-white'} ${activeLinkIndex === 1 ? 'active' : ''}`} onClick={() => { handleLinkClick(1) 
+              <a className={`nav-link   ${scrollY > 1 ?  'text-black ' : 'text-white'} ${activeLinkIndex === 1 ? 'active' : ''}`} onClick={() => { handleLinkClick(1) 
                 Navigate('/wePage')}} href="#">من نحن</a>
             </li>
             <li  className="nav-item mx-3 ">

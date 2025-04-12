@@ -20,10 +20,10 @@ export default function SectionWithToggle() {
     setIsOpen3(!isOpen3);
   };
   const toggleSection4 = async () => {
-    setIsOpen3(!isOpen3);
+    setIsOpen4(!isOpen4);
   };
   const toggleSection5 = async () => {
-    setIsOpen3(!isOpen3);
+    setIsOpen5(!isOpen5);
   };
 
   return (

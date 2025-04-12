@@ -12,6 +12,7 @@ export default function Home() {
       <About></About>
 <We></We>
 <Testimonials></Testimonials>
+<Questions></Questions>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import "./questions.css"
 export default function Questions() {
   return (
     <div className='we p-5'>
-      <div className="row p-5   justify-content-center">
+      <div className="row p-lg-5   justify-content-center">
    
         <div className="col-lg-6 col-md-12 info-questions">
             <h1 className='mb-2'><span>//  </span > الاسئله الشائعه</h1>

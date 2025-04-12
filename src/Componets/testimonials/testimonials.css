@@ -84,6 +84,14 @@
       gap: 40px;
     }
   }
+  @media screen and (max-width: 600px) {
+  
+  }
+
+  .title-testimonials h1{
+    font-size: 35px;
+
+  }
   
 
 

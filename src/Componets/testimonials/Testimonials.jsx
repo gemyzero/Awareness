@@ -48,14 +48,14 @@ export default function Testimonials() {
     return (
         <div  className=' w-100 overflow-hidden testimonials py-5'>
         <div className="row  p-5">
-        <div className="col-lg-4  title-testimonials px-5">
+        <div className="col-lg-4  title-testimonials px-lg-5">
             <h1 >قصص نجاح حقيقية من عملائنا في مجال التدريب</h1>
             <button className='' >كن انتا التالي</button>
         </div>
 
         <div className="col-lg-8">
-         <div  className='content'>
-            <div className='textContainer'>
+         <div  className='content '>
+            <div className='textContainer '>
               <h2>{currentTestimonial.  name} </h2>
               <p  className='testimonialText '>{currentTestimonial.text}</p>
             </div>
