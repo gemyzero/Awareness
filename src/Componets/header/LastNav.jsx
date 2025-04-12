@@ -6,8 +6,8 @@ import icon4 from '../../../public/images/4.jpg'
 
 export default function LastNav() {
   return (
-    <>
-        <div className='hr mt-5 mx-auto'> </div>
+    <div className='w-1oo'>
+        <div className='hr mt-5 mx-auto '> </div>
 <div className="row pt-5 g-5 justify-content-center">
     <div className="col-lg-2 col-md-4 mx-3 text-center text-white">
         <img className='mb-2' src={icon4} alt="" />
@@ -27,6 +27,6 @@ export default function LastNav() {
     </div>
 </div>
     
-    </>
+    </div>
   )
 }

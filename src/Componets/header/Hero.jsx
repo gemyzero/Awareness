@@ -3,7 +3,7 @@ import { BsArrowUpRight, BsCalendar2CheckFill } from 'react-icons/bs'
 import LastNav from './LastNav'
 export default function Hero() {
   return (
-<>
+<div className='w-100 overflow-hidden'>
 <div className='hero  p-0 m-0 row'>
  <div className='content-hero '>
  <div className="info-hero text-white   ">
@@ -26,7 +26,7 @@ export default function Hero() {
  </div>
     </div>
 
-</>
+</div>
 
   )
 }

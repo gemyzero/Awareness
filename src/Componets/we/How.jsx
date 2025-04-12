@@ -3,7 +3,7 @@ import basam from '../../../public/images/basam.png'
 
 export default function How() {
   return (
-    <div className=' how' style={{paddingTop:'100px'}}>
+    <div className=' w-100 overflow-hidden how' style={{paddingTop:'100px'}}>
       <div className="row">
         <div className="col-lg-5 info-how px-5">
 <div className='px-5  '>

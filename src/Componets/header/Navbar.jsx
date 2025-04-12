@@ -27,7 +27,7 @@ export default function Navbar() {
     setActiveLinkIndex(index);
   };
   return (
-    <div className={`container-fluid n p-2 ${scrollY > 1 ?  'bg-white ' : ''}`}>
+    <div className={`container-fluid n p-2  ${scrollY > 1 ?  'bg-white ' : ''}`}>
     <nav className="navbar  navbar-expand-lg  text-white  px-4">
       <div className="container-fluid ">
     <div className='logo ' >
@@ -52,7 +52,7 @@ export default function Navbar() {
             </li>
             <li  className="nav-item mx-3 ">
               <a className={`nav-link  ${scrollY > 1 ?  'text-black ' : 'text-white'} ${activeLinkIndex === 2 ? 'active' : ''}`} onClick={() => {handleLinkClick(2)
-                Navigate('/call')
+                Navigate('/wePage')
               }} >اتصل بنا</a>
             </li>
        

@@ -7,7 +7,7 @@ import './we.css'
 import How from './How'
 export default function We() {
   return (
-    <div>
+    <div className='w-100 overflow-hidden'>
       <div className="row  mt-5 pt-5 we ">
         <div className="col-lg-5 info-we py-5 px-5">
             <div><h1>استكشف خدمتنا</h1>

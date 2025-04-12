@@ -9,7 +9,7 @@ import We from '../we/We';
 import Questions from '../questions/Questions';
 export default function Headers() {
   return (
-    <div className=''>
+    <div className='w-100'>
 {/* hweo */}
 <Hero></Hero>
 
