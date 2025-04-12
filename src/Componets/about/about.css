@@ -1,0 +1,37 @@
+.about div li {
+    list-style: none;
+    padding: 7px 0;
+}
+.about div li h5 {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+.about div li h5 span{
+
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(5, 91, 5);
+}
+.about  h1{
+    color: rgb(5, 91, 5);
+    font-weight: bold;
+}
+.about  h1 span{
+    color: greenyellow;
+    font-weight: bold;
+}
+.about  p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2;
+    color: gray;
+}
+.about  button {
+    font-size: 22px;
+    font-weight: bold;
+}
+.about  button i{
+    font-size: 25px;
+    font-weight: bold;
+}

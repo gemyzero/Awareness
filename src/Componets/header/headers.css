@@ -1,0 +1,99 @@
+.hr{
+    background-color: white;
+    height: 2px;
+    width: 95%;
+    
+    }
+.logo {
+text-align: center;
+    }
+.logo a{
+font-size: 30px;
+font-weight: bold;
+color: white;
+padding-bottom: 20px;
+}
+.logo p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    }
+    .navbar .nav-item .nav-link{
+        font-size: 20px;
+    }
+    .navbar-nav .nav-item .nav-link.active {
+        border-bottom: 4px solid green;
+        padding-bottom: 10px;
+      }
+    .navbar form button{
+font-size: 20px;
+margin-left: 10px;
+    }
+  .n{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .navbar .container-fluid{
+    padding-bottom:10px ;
+    padding-top: 20px;
+  }
+  
+
+    /* Hero */
+  
+    .hero{
+        width: 100%;
+background-image: url('/public/images/hero.jpg');    
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.hero .info-hero{
+    width: 100%;
+    padding-right: 100px;
+    display: flex;
+justify-content: end;
+}
+.hero .info-hero div{ 
+
+}
+.hero .info-hero h1{
+font-size:65px;
+margin-bottom: 20px;
+max-width: 700px;
+}
+.hero .info-hero h1{
+    font-size:65px;
+    margin-bottom: 20px;
+    }
+.hero .info-hero button{
+    font-size:23px;
+    margin-top: 20px;
+    }
+    .hero small {
+        font-size:18px;
+
+    }
+    .hero small span{
+        color: green;
+    }
+
+    /* LastNav */
+    .LastNav{
+        position: relative; 
+        background-color: blue;
+        width: 100%;
+        height: 600px;
+    }
+    .content-hero{
+        padding-top: 250px;
+    }
+    .content-hero div img{
+        width: 100px;
+        border-radius: 50px;
+    }
+    .content-hero div p{
+        font-size: 20px;
+    }

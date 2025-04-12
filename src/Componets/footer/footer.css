@@ -1,0 +1,90 @@
+.footer ul {
+    display: flex;
+margin: 0;
+padding: 0;
+}
+.footer{
+    border-radius: 25px;
+    width: 95%;
+}
+
+.footer ul li{
+list-style: none;
+
+}
+.footer ul li a {
+    position: relative; /* مهم عشان الـ pseudo-element يكون بالنسبة ليه */
+    display: inline-flex; /* أو inline-block على حسب تصميمك */
+    justify-content: center;
+    align-items: center;
+    width: 60px; /* نفس قطر الخلفية */
+    height: 40px; /* نفس قطر الخلفية */
+  }
+
+
+  .footer ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    z-index: -1; /* عشان الخلفية تبقى ورا الأيقونة */
+  }
+  
+  .footer ul li a svg {
+    font-size: 45px; /* مثال لحجم الأيقونة */
+    color: white; /* مثال للون الأيقونة */
+    font-weight: bold;
+    padding: 7px;
+  }
+  
+
+.card-1 h1{
+font-size: 45px;
+}
+.card-1 h2{
+    font-size: 55px;
+
+    }
+    .card-2 p {
+font-size: 20px;
+
+}
+    .card-3 p {
+        font-size: 20px;
+    
+            }
+
+
+
+            @media screen and (max-width: 1200px) {
+           
+           
+                .card-1 h2{
+                    font-size: 35px;
+                    margin-bottom: 30px;
+
+                    }
+                    .card-1 h1{
+                        font-size: 35px;
+                        margin-bottom: 20px;
+                        }
+                        .card-2 p {
+                            font-size: 17px;
+                            
+                            }
+                            .card-2 p {
+                                font-size: 17px;
+                                
+                                }
+                                .footer .row{
+                                    padding: 60px;
+                                }
+                                .card-1 , .card-2 , .card-3{
+                                    margin: 20px 0;
+                                }
+
+            }
