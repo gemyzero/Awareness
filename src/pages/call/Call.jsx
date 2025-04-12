@@ -1,9 +1,10 @@
 import React from 'react'
+import Calls from '../../Componets/how-we/call/Calls'
 
 export default function Call() {
   return (
     <div>
-      Callsss
+      <Calls></Calls>
     </div>
   )
 }
