@@ -31,11 +31,12 @@ font-size: 20px;
 margin-left: 10px;
     }
   .n{
-    position: fixed;
     top: 0;
+    right: 0;
     width: 100%;
     z-index: 1;
     padding: 30px;
+    background-color: aqua;
   }
   .navbar .container-fluid{
     padding-bottom:10px ;

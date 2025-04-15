@@ -7,7 +7,7 @@ import Testimonials from '../../Componets/testimonials/Testimonials'
 
 export default function Home() {
   return (
-    <div>
+    <div className='container'>
       <Headers></Headers>
       <About></About>
 <We></We>

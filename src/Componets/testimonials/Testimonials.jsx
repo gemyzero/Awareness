@@ -46,7 +46,7 @@ export default function Testimonials() {
     const currentTestimonial = testimonials[currentIndex];
   
     return (
-        <div  className=' w-100 overflow-hidden testimonials py-5'>
+        <div  className=' container w-100 overflow-hidden testimonials py-5'>
         <div className="row  p-5">
         <div className="col-lg-4  title-testimonials px-lg-5">
             <h1 >قصص نجاح حقيقية من عملائنا في مجال التدريب</h1>

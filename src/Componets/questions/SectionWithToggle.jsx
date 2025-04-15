@@ -27,7 +27,7 @@ export default function SectionWithToggle() {
   };
 
   return (
-    <div className=" toggleSection mb-5 ">
+    <div className=" toggleSection mb-5 container">
       <div>
         <div
           className={`section1 mx-auto ${isOpen1 ? "active" : ""}`}

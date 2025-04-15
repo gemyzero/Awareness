@@ -9,7 +9,7 @@ import { RiTiktokLine } from 'react-icons/ri'
 import { FaFacebookF, FaInstagram, FaSnapchat } from 'react-icons/fa'
 export default function Footer() {
   return (
-    <div className='bg-dark text-white py-5 footer mx-auto   '  >
+    <div className='bg-dark text-white py-5 footer mx-auto container  '  >
       <div className="row justify-content-center   top-footer">
         <div className="card-1  col-lg-4 col-md-6 col-12 d-flex justify-content-lg-center justify-content-md-center justify-content-sm-center">
           <div>
